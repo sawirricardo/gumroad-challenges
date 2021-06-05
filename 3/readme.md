@@ -32,3 +32,9 @@ Then, how about changing sellers payout schedule?
 As you can see in the picture earlier, there are `created_at` column which can be our guidance when is the last time sellers got paid.
 
 > Whenever, we want to change payout schedule, simply refers to this `balances` table.
+
+## Based on this assignments, we will have these indexes
+
+- `balances.seller_id`
+- `balances.transaction_type`
+- `refunds.purchase_id`
