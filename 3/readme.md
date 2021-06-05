@@ -1,4 +1,4 @@
-# Challenge 3
+# Data Model Design
 
 Here is the overview of our models
 ![Current Schema](schema.png)
