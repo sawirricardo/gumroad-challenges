@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gumroad Overlay Challenge</title>
+		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.4.1/dist/typography.min.css" integrity="sha256-Xxn/RmOEU63MeoONufwgAmCmNVOxkzQJyP604j/3QqU=" crossorigin="anonymous">
+	</head>
+	<body class="font-sans antialiased">
+		<div class="p-4">
+			<h1 class="text-center text-4xl my-6 font-bold">Gumroad Overlay Challenge</h1>
+			<div class="prose mx-auto">
+
+				<p class="text-center mb-8">
+					Use this script
+					<pre>&lt;script type="text/javascript" src="sawiroad.min.js"&gt;&lt;/script&gt;</pre>
+				</p>
+			</div>
+				<div class="md:grid md:grid-cols-3 md:gap-8 space-y-8 md:space-y-0">
+				<div class="mx-auto">
+					<h3 class="text-center text-xl">With data-show and data-embed, domain gum.co</h3>
+					<a class="sawiroad-button mx-auto" href="https://gum.co/demo" data-show data-embed>Buy my product</a>
+				</div>
+				<div class="mx-auto">
+					<h3 class="text-center text-xl">With data-show and data-embed, user subdomain</h3>
+					<a class="sawiroad-button mx-auto" href="https://rowansoles.gumroad.com/l/QRUww" data-show data-embed>Buy my product</a>
+				</div>
+				<div class="mx-auto">
+					<h3 class="text-center text-xl">Only data-show without data-embed</h3>
+					<a class="sawiroad-button mx-auto" href="https://gumroad.com/l/peVsK" data-show>Buy my product</a>
+				</div>
+			</div>
+		</div>
+
+		<script src="sawiroad.min.js"></script>
+	</body>
+</html>
