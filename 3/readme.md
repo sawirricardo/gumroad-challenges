@@ -1,7 +1,7 @@
 # Data Model Design
 
 Here is the overview of our models
-![Current Schema](schema.png)
+![Overview Data ](https://user-images.githubusercontent.com/37329575/120884290-86e51780-c60c-11eb-8bf3-b405747e41f8.png)
 
 Aside from sellers, products, purchases, there are additional 2 tables: balances & refunds.
 
